@@ -43,11 +43,13 @@ public:
     }
     // Перегруженный оператор - сравнение двух векторов на равенство
     bool operator== (const Vector3D& v2) const {
-        return x == v2.x && y == v2.y && z == v2.z;
+        double eps = 1/1000000;
+        return abs(x - v2.x) < eps && abs(y - v2.y) < eps && abs(z - v2.z) < eps;
+        //return x == v2.x && y == v2.y && z == v2.z;
     }
     // Ещё один перегруженный оператор - неравенство векторов
     bool operator!= (const Vector3D& v2) const {
-        return x != v2.x && y != v2.y && z != v2.z;
+        return !(*this == v2);
     }
     // Сумма двух векторов, исходные вектора не меняются, возвращается новый вектор
     Vector3D operator+ (const Vector3D& v2) const {
@@ -145,9 +147,11 @@ public:
         mat.a11 = a11*m.a11 + a12*m.a21 + a13*m.a31;
         mat.a12 = a11*m.a12 + a12*m.a22 + a13*m.a32;
         mat.a13 = a11*m.a13 + a12*m.a23 + a13*m.a33;
+        
         mat.a21 = a21*m.a11 + a22*m.a21 + a23*m.a31;
         mat.a22 = a21*m.a12 + a22*m.a22 + a23*m.a32;
-        mat.a21 = a21*m.a13 + a22*m.a23 + a23*m.a33;
+        mat.a23 = a21*m.a13 + a22*m.a23 + a23*m.a33;
+
         mat.a31 = a31*m.a11 + a32*m.a21 + a33*m.a31;
         mat.a32 = a31*m.a12 + a32*m.a22 + a33*m.a32;
         mat.a33 = a31*m.a13 + a32*m.a23 + a33*m.a33;
