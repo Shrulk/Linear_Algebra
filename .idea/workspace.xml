@@ -30,6 +30,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
     <configuration name="Linear_Algebra_master" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Linear_Algebra_master" TARGET_NAME="Linear_Algebra_master" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Linear_Algebra_master" RUN_TARGET_NAME="Linear_Algebra_master">
@@ -48,11 +54,31 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1589137225270</updated>
-      <workItem from="1589137228525" duration="282000" />
+      <workItem from="1589137228525" duration="4292000" />
+      <workItem from="1589371913381" duration="5000" />
+      <workItem from="1589622033185" duration="656000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1865" height="268" key="GridCell.Tab.0.bottom" timestamp="1589622624418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="268" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1589622624418" />
+    <state width="1865" height="268" key="GridCell.Tab.0.center" timestamp="1589622624418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="268" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1589622624418" />
+    <state width="1865" height="268" key="GridCell.Tab.0.left" timestamp="1589622624418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="268" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1589622624418" />
+    <state width="1865" height="268" key="GridCell.Tab.0.right" timestamp="1589622624418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1865" height="268" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1589622624418" />
   </component>
 </project>
